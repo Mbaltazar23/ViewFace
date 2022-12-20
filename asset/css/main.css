@@ -1,0 +1,54 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    margin-bottom: 60px;
+}
+footer{
+    background-color: #4f4f4f;
+    color: white;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.jumbotron{
+    background: #C5D2C7;
+    background-size: cover;
+}
+.jumbotron p{
+    font-size: 25px;
+}
+@media (max-width: 767px){
+    .jumbotron h1{
+        font-size: 60px;
+        text-shadow : transparent;
+    }
+}
+@media (max-width: 540px){
+    .jumbotron h1{
+        font-size: 50px;
+    }
+    .jumbotron p{
+        font-size: 23px;
+    }
+}
+
+.fondoCat{
+    background:#DFE1DB;
+}
+
+
+
+.panelCat{
+    position: fixed;
+    top:201px;
+    margin-right: 30px;
+}
+
+
+
+
+
